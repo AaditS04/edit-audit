@@ -4,9 +4,10 @@ This folder records every step taken to extend the PVLDB draft
 "Auditing Knowledge Edits in Language Models as Database Updates [Vision]"
 (PDF in the parent folder; code in `../edit-audit/`, the colleague's supplementary-material repo).
 
-**Copy in the repo (2026-11-14):** this folder and `data/raw_runs/` are also committed on branch `csis-phase2` of
+**Copy in the repo (2026-11-14):** this folder and `data/raw_runs/` are also committed on branch `phase2` of
 https://github.com/AaditS04/edit-audit (folders `research-log/` and `data/raw_runs/`). The master copy is the one on
-the laptop (`C:\Desktop\edit-auditesearch-log\`); the repo copy is refreshed from it before each push.
+the laptop (`C:\Desktop\edit-audit
+esearch-log\`); the repo copy is refreshed from it before each push.
 
 Originally it sat outside the `edit-audit/` git repo on purpose: that repo is the shipped artifact for the
 current draft and stays byte-identical to its `CHECKSUMS.md5` until we decide to publish a new version.

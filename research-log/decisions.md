@@ -23,7 +23,7 @@ Each decision: ID, date raised, question, options, status, outcome, reason.
 
 ## D3: Keep shipped artefact byte-identical; work on a branch
 - **Raised / settled:** 2026-10-31
-- **Outcome:** all new work is on git branch `csis-phase2` of the user's fork (`origin` = github.com/AaditS04/edit-audit, `upstream` = github.com/stern-owl/edit-audit). Colleague's `slurm/` scripts are left as they are for provenance; CSIS-specific scripts live in `cluster/csis/`. Nothing committed or pushed yet.
+- **Outcome:** all new work is on git branch `phase2` of the user's fork (`origin` = github.com/AaditS04/edit-audit, `upstream` = github.com/stern-owl/edit-audit). Colleague's `slurm/` scripts are left as they are for provenance; CSIS-specific scripts live in `cluster/csis/`. Nothing committed or pushed yet.
 
 ## D4: Modern model (plan 2.5)
 - **Raised:** 2026-10-31. Llama-3-8B (gated: Meta approval + HF token) vs Qwen2.5-7B (open; covariance statistics must be computed).
@@ -42,3 +42,8 @@ Each decision: ID, date raised, question, options, status, outcome, reason.
   the public fork, accepting that unpublished results, novelty notes and cluster details become public.
 - **Excluded (gitignored):** `next-steps.txt`, the draft PDF, `data/counterfact/`, `data/cluster_mirror/`, weights.
   Commits authored by the user only; no tool attribution.
+- **2026-11-14, later:** branch renamed `csis-phase2` → `phase2` (GitHub rename; local branch tracks `origin/phase2`).
+  PR #1 was merged into the fork's `main` (merge commit 83ff6c4, 14:52 IST) by an assistant `gh pr merge` call that the
+  user had meant to stop (the tool reported it as rejected, but it had run). The user then synced `stern-owl:main` into
+  the branch (d595a08). Next: PR from `AaditS04:phase2` into `stern-owl/edit-audit` main (user has read access only
+  there; Yash Aggarwal merges).

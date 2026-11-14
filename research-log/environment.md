@@ -38,7 +38,7 @@ Defined once in `cluster/csis/paths.sh`, which every job sources.
 | `cache/` | `HF_HOME`, pip, conda pkgs, matplotlib, nltk, tmp. Never in `$HOME` |
 
 ### Workflow
-1. Edit code on the laptop (git branch `csis-phase2`).
+1. Edit code on the laptop (git branch `phase2`).
 2. `bash cluster/csis/sync.sh` copies the working tree to `repo/` (nothing on the cluster is deleted).
 3. `ssh bits-cluster 'sbatch /nfs_home/users/yashsinha/F20220612_Aadit/edit-audit/repo/cluster/csis/<job>.sbatch'`.
 4. Copy small outputs back to the laptop for analysis; log everything in `entries/`.
