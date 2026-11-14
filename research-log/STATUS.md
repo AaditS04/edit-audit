@@ -43,7 +43,8 @@ only blobs not shared with the 72B model were deleted. Usage after: 993 GB. Re-f
 
 ## Open decisions for the user
 - **D4 (plan 2.5):** modern model: Llama-3-8B (gated: needs Meta approval on Hugging Face + an HF token on the cluster) or Qwen2.5-7B (open, but covariance statistics must be computed: GPU-hours + ~20 GB Wikipedia).
-- Whether to commit the work on branch `csis-phase2` (nothing committed or pushed yet; 9 new files, `.gitattributes`).
+- ~~Whether to commit~~ **Done 2026-11-14:** branch `csis-phase2` pushed to the (public) fork AaditS04/edit-audit, PR #1
+  (https://github.com/AaditS04/edit-audit/pull/1): code, `research-log/` and `data/raw_runs/`. Commits 632ad40, 093e0d3.
 - D1 venue: deferred.
 
 ## Next work after the results are in

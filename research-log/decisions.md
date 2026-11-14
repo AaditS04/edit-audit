@@ -34,3 +34,11 @@ Each decision: ID, date raised, question, options, status, outcome, reason.
 - **Outcome:** the v3 fact set, templates and screening stay frozen (the revision proposed in entry 06 is not applied; its
   findings become stated limitations). New large runs use seed 0 only (seeds agreed closely in the draft and E0).
   Priority goes to new experiments: v3 audit at scale (E4), sequential editing (E7), GPT-J (E5).
+
+## D5 · Publishing the phase-2 work (2026-11-14) · settled
+- **Options:** PR in the own fork vs in the original repo (stern-owl/edit-audit); code only vs code + research log vs
+  code + log + raw runs; given the fork is public: new private repo vs public fork.
+- **Outcome (user):** PR in the own fork AaditS04/edit-audit (PR #1), with code, research log and `data/raw_runs/`, on
+  the public fork, accepting that unpublished results, novelty notes and cluster details become public.
+- **Excluded (gitignored):** `next-steps.txt`, the draft PDF, `data/counterfact/`, `data/cluster_mirror/`, weights.
+  Commits authored by the user only; no tool attribution.
